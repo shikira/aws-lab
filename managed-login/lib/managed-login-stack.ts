@@ -1,5 +1,4 @@
 import * as cdk from 'aws-cdk-lib';
-import { UserPoolClient } from 'aws-cdk-lib/aws-cognito';
 import { Construct } from 'constructs';
 
 export class ManagedLoginStack extends cdk.Stack {
